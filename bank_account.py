@@ -6,5 +6,5 @@ class BankAccount(object):
   def transactions(self):
     return self.__transactions
 
-  def add_transaction(self, thing):
-    self.__transactions.append(thing)
+  def add_transaction(self, transaction):
+    self.__transactions.append(transaction)
