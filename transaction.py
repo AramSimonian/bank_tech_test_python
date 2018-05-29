@@ -1,7 +1,7 @@
 class Transaction(object):
-  def __init__(self):
-    self.__date = "01/01/1900"
-    self.__amount = 0
+  def __init__(self, date, amount):
+    self.__date = date
+    self.__amount = amount
 
   @property
   def date(self):
